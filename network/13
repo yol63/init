@@ -1,0 +1,3 @@
+at-r1.21-school.ru.
+
+#nslookup 192.168.22.118 | sed '4!D' | cut -d " " -f 3

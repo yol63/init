@@ -1,0 +1,2 @@
+#!/bin/bash
+netstat -rn | grep -w "default" | sed "2 d" | cut -d " " -f 13

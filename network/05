@@ -1,0 +1,2 @@
+#!/bin/bash
+dig slash16.org | grep "SERVER" | cut -d " " -f 3 | cut -d "#" -f 1
