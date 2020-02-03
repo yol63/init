@@ -1,0 +1,3 @@
+echo "Write city"
+read CITY
+curl "https://www.wttr.in/$CITY"
