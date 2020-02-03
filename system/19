@@ -1,1 +1,1 @@
-pkill ssh
+systemctl list-units --type service --all
